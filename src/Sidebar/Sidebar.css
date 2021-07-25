@@ -1,0 +1,60 @@
+.sidebar-content {
+    text-align: center;
+}
+
+.sidebar-content .title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+
+.sidebar-content .sidebar-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.sidebar-content .sidebar-info .name-title {
+    font-size: 16px;
+}
+
+.sidebar-content .logo-container img {
+    width: 66px;
+}
+
+.sidebar-content .I {
+    color: #00ccff;
+}
+
+.sidebar-content .M {
+    color: #ff00cc;
+}
+
+.sidebar-content .G {
+    color: #3771c8;
+}
+
+.sidebar-content .bio {
+    margin-top: 20px;
+}
+
+.sidebar-content .tools {
+    margin-top: 20px;
+}
+
+.sidebar-content ul.links{
+    list-style: none;
+    text-align: right;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.sidebar-content ul.links li.link-title {
+    display: inline-block;
+    border-bottom: 1px dashed #00ccff;
+    padding-bottom: 0px;
+    color: #00ccff;
+    margin-bottom: 10px;
+}
+
+.sidebar-content ul.links li a{
+    color: #00ccff;;
+}
