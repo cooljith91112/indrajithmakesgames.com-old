@@ -11,9 +11,9 @@ html, body {
   color: #ffffff;
   background-color: #000000;
   opacity: 1;
-  background-image:  url('./assets/images/pattern.png');
+  background-image:  url('./assets/images/patternV2.png');
   background-position:  8px 0, 8px 0, 0 0, 0 0;
-  background-size: 8px 8px;
+  background-size: 128px 128px;
   background-repeat: repeat;
 }
 
