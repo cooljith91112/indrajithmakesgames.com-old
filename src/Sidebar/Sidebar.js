@@ -2,10 +2,10 @@ import './Sidebar.css';
 
 const Sidebar = (props) => {
     return (
-        <div className="row sidebar-content sticky-top">
+        <div className="row sidebar-content">
             <div className="col-12">
                 <div className="logo-container">
-                    <img src="/logo.png" />
+                    <img src="/logo.png" alt="logo"/>
                 </div>
                 <h1 className="title">
                     <span className="I">Indrajith</span>

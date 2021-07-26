@@ -1,0 +1,19 @@
+.sidebar {
+    border-right: dashed 2px #48FF00;
+    padding: 4px 12px 0px 4px;
+    margin-bottom: 16px;
+    width: 343px;
+    position: fixed;
+    left: 20px;
+}
+
+.main-content {
+    border-left: 0;
+    width: 650px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    position: absolute;
+    left: 380px;
+}

@@ -1,3 +1,10 @@
+.sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
 .sidebar-content {
     text-align: center;
 }
@@ -14,6 +21,10 @@
 
 .sidebar-content .sidebar-info .name-title {
     font-size: 16px;
+}
+
+.sidebar-content .logo-container {
+    margin-bottom: -40px;
 }
 
 .sidebar-content .logo-container img {
