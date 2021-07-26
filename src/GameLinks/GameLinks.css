@@ -2,18 +2,19 @@
     width: 600px;
     height: 100px;
     margin-bottom: 20px;
-    border: 1px dashed #ffc107;
+    border: 1px dashed #eb00bc;;
     text-align: left;
 }
 
 .game-container:hover {
-    -webkit-box-shadow: 4px 5px 5px -4px #ffc107;
-    -moz-box-shadow: 4px 5px 5px -4px #ffc107;
-    box-shadow: 4px 5px 5px -4px #ffc107;
+    -webkit-box-shadow: 4px 5px 5px -4px #eb00bc;
+    -moz-box-shadow: 4px 5px 5px -4px #eb00bc;
+    box-shadow: 4px 5px 5px -4px #eb00bc;
 }
 
 .game-container a.game-link {
     text-decoration: none;
+    cursor: url('../assets/images/controller.png'), auto;
 }
 
 .game-title-container {

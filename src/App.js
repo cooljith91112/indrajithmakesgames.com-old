@@ -30,6 +30,9 @@ function App() {
                 <GameLinks gameData={game}></GameLinks>
                 )}
           </div>
+          <div className="col-12 game-list-end">
+          &#8826;EOF&#8827;
+          </div>
         </div>
       </Layout>
     </div>

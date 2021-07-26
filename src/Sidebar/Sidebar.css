@@ -60,6 +60,7 @@
 .sidebar-content .tools details summary{
     color: #ff00cc;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .sidebar-content .tools details ul{
@@ -69,15 +70,18 @@
 .sidebar-content ul li a{
     color: #00ccff;
     text-decoration: none;
+    cursor:  url('../assets/images/links.png'), auto;
 }
 
 .sidebar-content ul li a::before {
     content: ">> ";
     visibility: hidden;
+    text-decoration: none;
+    color: #ff00cc;
 }
 
 .sidebar-content ul li a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .sidebar-content ul li:hover a::before {
@@ -97,6 +101,7 @@
     padding-bottom: 0px;
     margin-bottom: 10px;
     color: #ff00cc;
+    font-weight: bold;
 }
 
 .sidebar-content ul.links li a{

@@ -15,6 +15,8 @@ html, body {
   background-position:  8px 0, 8px 0, 0 0, 0 0;
   background-size: 128px 128px;
   background-repeat: repeat;
+  background-attachment: fixed;
+  cursor:  url('./assets/images/pencil.png'), auto;
 }
 
 body {
