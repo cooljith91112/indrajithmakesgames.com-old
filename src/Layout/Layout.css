@@ -1,10 +1,14 @@
 .sidebar {
-    border-right: dashed 2px #48FF00;
-    padding: 4px 12px 0px 4px;
+    border-right: dashed 2px #2171c8;
+    padding: 0px 12px 0px 4px;
     margin-bottom: 16px;
-    width: 343px;
+    width: 352px;
     position: fixed;
     left: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 0px;
+    height: 100vh;
 }
 
 .main-content {

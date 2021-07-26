@@ -14,17 +14,54 @@ const Sidebar = (props) => {
                 </h1>
             </div>
             <div className="col-12 sidebar-info">
-                <div className="name-title">
-                    <div>Indrajith K L</div>
-                    <div>Indie Game Developer</div>
-                </div>
                 <div className="bio">
-                    I'm an hobbyist Indie Game Developer. I started making games when I was 20 years old and now I'm entering middle age. Made many prototypes but never released any.
+                    Hi my name is Indrajith K L, I'm an hobbyist Indie Game Developer. I started making games when I was 20 years old and now I'm entering middle age. Made many prototypes but never released any.
                     This website exist as an intiative to develop games every month, heavily inspired by 1GAM. I will post links and info about my games here.
                 </div>
                 <div className="tools">
                     I love to make games using either HaxeFlixel (still loves the old Flixel) or Game Maker Studio but also a fan of LÖVE 2D.
-                    For graphics I use Aseprite & Promotion NG.
+                    For graphics I use Aseprite & Promotion NG. Below is a list of tools I use frequently.
+                    <details>
+                        <summary>Tools & Game engines</summary>
+                        <ul>
+                            <li>
+                                <a href="https://haxeflixel.com/">HaxeFlixel</a>
+                            </li>
+                            <li>
+                                <a href="https://yoyogames.com/">Game Maker Studio</a>
+                            </li>
+                            <li>
+                                <a href="https://www.aseprite.org/">Aseprite</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cosmigo.com/">Promotion NG</a>
+                            </li>
+                            <li>
+                                <a href="https://pyxeledit.com/">Pyxel Edit</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mapeditor.org/">Tiled</a>
+                            </li>
+                            <li>
+                                <a href="https://ogmo-editor-3.github.io/">Ogmo Editor 3</a>
+                            </li>
+                            <li>
+                                <a href="https://www.lexaloffle.com/pico-8.php">Pico 8</a>
+                            </li>
+                            <li>
+                                <a href="https://www.appgamekit.com/">AGK Classic</a>
+                            </li>
+                            <li>
+                                <a href="https://www.clickteam.com/clickteam-fusion-2-5">Clickteam Fusion</a>
+                            </li>
+                            <li>
+                                <a href="https://www.gbstudio.dev/">GB Studio</a>
+                            </li>
+                            <li>
+                                <a href="https://www.solarus-games.org/">Solarus</a>
+                            </li>
+                        </ul>
+                    </details>
                 </div>
                 <ul className="links">
                     <li className="link-title">My Other websites and links</li>
@@ -35,7 +72,7 @@ const Sidebar = (props) => {
                     <li><a href="https://github.com/cooljith91112">Github</a></li>
                 </ul>
                 <footer>
-                    Design & Development by Indrajith K L
+                &#8826; 2021 Indrajith K L &#8827;
                 </footer>
             </div>
         </div>

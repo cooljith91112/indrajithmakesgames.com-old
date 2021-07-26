@@ -2,8 +2,14 @@
     width: 600px;
     height: 100px;
     margin-bottom: 20px;
-    border: 1px dashed #ffffff;
+    border: 1px dashed #ffc107;
     text-align: left;
+}
+
+.game-container:hover {
+    -webkit-box-shadow: 4px 5px 5px -4px #ffc107;
+    -moz-box-shadow: 4px 5px 5px -4px #ffc107;
+    box-shadow: 4px 5px 5px -4px #ffc107;
 }
 
 .game-container a.game-link {
