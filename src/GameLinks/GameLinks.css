@@ -1,6 +1,5 @@
 .game-container {
     width: 600px;
-    height: 100px;
     margin-bottom: 20px;
     border: 1px dashed #eb00bc;;
     text-align: left;
@@ -12,7 +11,11 @@
     box-shadow: 4px 5px 5px -4px #eb00bc;
 }
 
-.game-container a.game-link {
+.game-container .game-bg {
+    min-height: 100px;
+}
+
+.game-container .game-title {
     text-decoration: none;
     cursor: url('../assets/images/controller.png'), auto;
 }
@@ -25,10 +28,63 @@
     visibility: visible;
 }
 
-.game-title {
+.game-title-container .game-title {
     padding: 10px;
     background: rgb(0 0 0 / 67%);
     color: #ffffff;
     text-decoration: none;
     font-family: 'Lunchtime';
+}
+
+.game-container .game-details {
+    transition: max-height 0.2s ease-out;
+    max-height: 0px;
+    overflow: hidden;
+    background: #eb00bc;
+    font-family: 'Manaspace';
+}
+
+.game-container .game-details .game-description {
+    padding: 5px;
+    text-align: left;
+}
+
+.game-container .game-details .game-release-details {
+    padding: 5px;
+}
+
+.game-container .game-details .game-release-details .game-year {
+    margin-right: 10px;
+}
+
+.game-container .game-details .game-release-details .game-links {
+    cursor: url('../assets/images/controller.png'), auto;
+}
+
+.game-container .game-details .game-release-details .text {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.game-container .hover-text {
+    display: none;
+}
+
+.game-container .game-links:hover .hover-text {
+    display: block;
+    visibility: visible;
+    position: relative;
+    right: 50%;
+    background: #000000;
+    padding: 5px;
+    font-size: 11px;
+    float: right;
+    top: -25px;
+    animation: flash 2s linear infinite;
+}
+
+@keyframes flash {
+    50% {
+        opacity: 0;
+    }
 }

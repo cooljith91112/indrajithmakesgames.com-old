@@ -14,7 +14,6 @@ function App() {
   const fetchGameData = async () => {
     try {
       const gameData = await fetch('./games.json').then(res=>res.json());
-      console.log(gameData);
       setGameList(gameData);
     } catch(error) {
       console.log("Failed to load Game List")
@@ -27,7 +26,7 @@ function App() {
         <div className="row">
           <div className="col-12 game-list">
               {gameList && gameList.length > 0 && gameList.map( game => 
-                <GameLinks gameData={game}></GameLinks>
+                <GameLinks gameData={game} key={game.id}></GameLinks>
                 )}
           </div>
           <div className="col-12 game-list-end">

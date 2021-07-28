@@ -2,7 +2,10 @@
     {
         "id": 1,
         "link": "https://indrajithkl.itch.io/rengoku",
+        "linkTitle": "Itch.io",
         "title": "Rengoku",
-        "image": "img/rengoku.png"
+        "description": "A Text based horror adventure game written in 2 days for #BiteSizedHorrorJam 2018.",
+        "image": "img/rengoku.png",
+        "releaseDate": "2018"
     }
 ]

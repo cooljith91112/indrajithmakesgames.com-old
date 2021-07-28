@@ -67,7 +67,7 @@
     list-style: none;
 }
 
-.sidebar-content ul li a{
+.sidebar-content ul li a, .link{
     color: #00ccff;
     text-decoration: none;
     cursor:  url('../assets/images/links.png'), auto;

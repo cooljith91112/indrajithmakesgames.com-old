@@ -6,6 +6,16 @@
   src: url('./assets/fonts/lunchds.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Manaspace';
+  src: url('./assets/fonts/manaspc.ttf') format('truetype');
+}
+
+*{
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 html, body {
   background: #000000;
   color: #ffffff;
