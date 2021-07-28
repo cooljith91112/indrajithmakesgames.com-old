@@ -70,6 +70,7 @@ const Sidebar = (props) => {
                     <li><a href="https://indrajithkl.itch.io/">Itch.io</a></li>
                     <li><a href="https://twitter.com/indrajithKLIS">Twitter</a></li>
                     <li><a href="https://github.com/cooljith91112">Github</a></li>
+                    <li><a href="mailto:indrajith@indrajithmakesgames.com">Mail Me</a></li>
                 </ul>
                 <footer>
                 &#8826; 2021 Indrajith K L &#8827;
