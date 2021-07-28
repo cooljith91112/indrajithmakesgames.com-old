@@ -42,6 +42,7 @@
     overflow: hidden;
     background: #eb00bc;
     font-family: 'Manaspace';
+    font-size: 12px;
 }
 
 .game-container .game-details .game-description {
