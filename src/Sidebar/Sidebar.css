@@ -59,7 +59,7 @@
 
 .sidebar-content .tools details summary{
     color: #ff00cc;
-    cursor: pointer;
+    cursor: url('../assets/images/expand_icon.png'), auto;
     font-weight: bold;
 }
 

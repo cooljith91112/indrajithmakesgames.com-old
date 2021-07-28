@@ -26,7 +26,7 @@ html, body {
   background-size: 128px 128px;
   background-repeat: repeat;
   background-attachment: fixed;
-  cursor:  url('./assets/images/pencil.png'), auto;
+  cursor:  url('./assets/images/expand_icon.png'), auto;
 }
 
 body {
