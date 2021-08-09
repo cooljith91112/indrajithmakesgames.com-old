@@ -25,52 +25,52 @@ const Sidebar = (props) => {
                         <summary>Tools & Game engines</summary>
                         <ul>
                             <li>
-                                <a target="_blank" href="https://haxeflixel.com/">HaxeFlixel</a>
+                                <a target="_blank" href="https://haxeflixel.com/" rel="noreferrer">HaxeFlixel</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://yoyogames.com/">Game Maker Studio</a>
+                                <a target="_blank" href="https://yoyogames.com/" rel="noreferrer">Game Maker Studio</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.aseprite.org/">Aseprite</a>
+                                <a target="_blank" href="https://www.aseprite.org/" rel="noreferrer">Aseprite</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.cosmigo.com/">Promotion NG</a>
+                                <a target="_blank" href="https://www.cosmigo.com/" rel="noreferrer">Promotion NG</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://pyxeledit.com/">Pyxel Edit</a>
+                                <a target="_blank" href="https://pyxeledit.com/" rel="noreferrer">Pyxel Edit</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.mapeditor.org/">Tiled</a>
+                                <a target="_blank" href="https://www.mapeditor.org/" rel="noreferrer">Tiled</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://ogmo-editor-3.github.io/">Ogmo Editor 3</a>
+                                <a target="_blank" href="https://ogmo-editor-3.github.io/" rel="noreferrer">Ogmo Editor 3</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.lexaloffle.com/pico-8.php">Pico 8</a>
+                                <a target="_blank" href="https://www.lexaloffle.com/pico-8.php" rel="noreferrer">Pico 8</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.appgamekit.com/">AGK Classic</a>
+                                <a target="_blank" href="https://www.appgamekit.com/" rel="noreferrer">AGK Classic</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.clickteam.com/clickteam-fusion-2-5">Clickteam Fusion</a>
+                                <a target="_blank" href="https://www.clickteam.com/clickteam-fusion-2-5" rel="noreferrer">Clickteam Fusion</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.gbstudio.dev/">GB Studio</a>
+                                <a target="_blank" href="https://www.gbstudio.dev/" rel="noreferrer">GB Studio</a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.solarus-games.org/">Solarus</a>
+                                <a target="_blank" href="https://www.solarus-games.org/" rel="noreferrer">Solarus</a>
                             </li>
                         </ul>
                     </details>
                 </div>
                 <ul className="links">
                     <li className="link-title">My Other websites and links</li>
-                    <li><a target="_blank" href="https://thingsofinternet.org/">Things of Internet</a></li>
-                    <li><a target="_blank" href="https://experimentsofindrajith.in/">Experiments of Indrajith</a></li>
-                    <li><a target="_blank" href="https://indrajithkl.itch.io/">Itch.io</a></li>
-                    <li><a target="_blank" href="https://twitter.com/indrajithKLIS">Twitter</a></li>
-                    <li><a target="_blank" href="https://github.com/cooljith91112">Github</a></li>
-                    <li><a href="mailto:indrajith@indrajithmakesgames.com">Mail Me</a></li>
+                    <li><a target="_blank" href="https://thingsofinternet.org/" rel="noreferrer">Things of Internet</a></li>
+                    <li><a target="_blank" href="https://experimentsofindrajith.in/" rel="noreferrer">Experiments of Indrajith</a></li>
+                    <li><a target="_blank" href="https://indrajithkl.itch.io/" rel="noreferrer">Itch.io</a></li>
+                    <li><a target="_blank" href="https://twitter.com/indrajithKLIS" rel="noreferrer">Twitter</a></li>
+                    <li><a target="_blank" href="https://github.com/cooljith91112" rel="noreferrer">Github</a></li>
+                    <li><a href="mailto:indrajith@indrajithmakesgames.com" rel="noreferrer">Mail Me</a></li>
                 </ul>
                 <footer>
                 &#8826; 2021 Indrajith K L &#8827;

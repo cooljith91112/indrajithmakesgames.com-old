@@ -32,7 +32,7 @@ const GameLinks = (props) => {
                     </span>
                     <span className="game-link">
                         <span className="label">Link: </span>
-                        <a className="text game-links link" href={props.gameData.link} target="_blank">
+                        <a className="text game-links link" href={props.gameData.link} target="_blank" rel="noreferrer">
                             {props.gameData.linkTitle}
                             <div className="hover-text">Play this game</div>
                         </a>

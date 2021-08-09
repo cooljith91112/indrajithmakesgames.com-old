@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="168.6119"
-     inkscape:cy="140.69799"
+     inkscape:zoom="1.4"
+     inkscape:cx="220.81249"
+     inkscape:cy="107.15141"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g871"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1366"
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,38 +70,22 @@
          y="112.23773" />
       <text
          xml:space="preserve"
-         style="font-size:24.9014px;line-height:1.25;font-family:collision;-inkscape-font-specification:collision;fill:#ff00cc;fill-opacity:1;stroke-width:0.259389"
-         x="67.216164"
-         y="144.03014"
-         id="text1491"><tspan
-           sodipodi:role="line"
-           id="tspan1489"
-           x="67.216164"
-           y="144.03014"
-           style="font-size:24.9014px;fill:#ff00cc;fill-opacity:1;stroke-width:0.259389"
-           rotate="0 0 0"><tspan
-   style="fill:#2ad4ff;stroke-width:0.259389"
-   id="tspan1503">I</tspan>M<tspan
-   style="fill:#0055d4;stroke-width:0.259389"
-   id="tspan1505">G</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:10.5833px;line-height:1.25;font-family:collision;-inkscape-font-specification:collision;stroke-width:0.264583"
-         x="40.821426"
-         y="150.43452"
+         style="font-size:6.59207px;line-height:1.25;font-family:collision;-inkscape-font-specification:collision;stroke-width:0.164802"
+         x="35.76606"
+         y="140.84526"
          id="text1439"><tspan
            sodipodi:role="line"
            id="tspan1437"
-           x="40.821426"
-           y="150.43452"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Amatic SC';-inkscape-font-specification:'Amatic SC';stroke-width:0.264583"
+           x="35.76606"
+           y="140.84526"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lunchtime Doubly So';-inkscape-font-specification:'Lunchtime Doubly So';stroke-width:0.164802"
            rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Amatic SC';-inkscape-font-specification:'Amatic SC';fill:#00ccff;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lunchtime Doubly So';-inkscape-font-specification:'Lunchtime Doubly So';fill:#00ccff;fill-opacity:1;stroke-width:0.164802"
    id="tspan1445"
    rotate="0 0 0 0 0 0 0 0 0 0">Indrajith</tspan> <tspan
-   style="fill:#ff00cc;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lunchtime Doubly So';-inkscape-font-specification:'Lunchtime Doubly So';fill:#ff00cc;fill-opacity:1;stroke-width:0.164802"
    id="tspan849">Makes</tspan> <tspan
-   style="fill:#3771c8;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Lunchtime Doubly So';-inkscape-font-specification:'Lunchtime Doubly So';fill:#3771c8;fill-opacity:1;stroke-width:0.164802"
    id="tspan857">Games</tspan></tspan></text>
     </g>
   </g>
