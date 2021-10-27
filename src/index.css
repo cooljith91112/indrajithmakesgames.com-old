@@ -40,3 +40,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-container {
+  bottom: 11px;
+  position: fixed;
+  float: right;
+  right: 5px;
+}
