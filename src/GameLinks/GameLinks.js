@@ -32,9 +32,9 @@ const GameLinks = (props) => {
                     </span>
                     <span className="game-link">
                         <span className="label">Link: </span>
-                        <a className="text game-links link" href={props.gameData.link} target="_blank" rel="noreferrer">
+                        <a className="text game-links link" href={props.gameData.link} target={props.gameData.link!="#" ? '_blank': '_self'} rel="noreferrer">
                             {props.gameData.linkTitle}
-                            <div className="hover-text">Play this game</div>
+                            <div className="hover-text">{props.gameData.releaseDate==='WIP' ? 'Work In Progress': 'Play this game'}</div>
                         </a>
                     </span>
                 </div>

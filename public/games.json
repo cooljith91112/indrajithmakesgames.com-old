@@ -7,5 +7,14 @@
         "description": "A Text based horror adventure game written in 2 days for #BiteSizedHorrorJam 2018.",
         "image": "img/rengoku.png",
         "releaseDate": "2018"
+    },
+    {
+        "id": 2,
+        "link": "#",
+        "linkTitle": "WIP",
+        "title": "Your Enemy is in Another Dungeon",
+        "description": "A 3-bit Top down 2D game",
+        "image": "img/yead.png",
+        "releaseDate": "WIP"
     }
 ]
