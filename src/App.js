@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import GameLinks from './GameLinks/GameLinks';
 import Layout from './Layout/Layout';
+import MusicPlaying from './MusicPlaying/MusicPlaying';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <div className="col-12 game-list-end">
           &#8826;EOF&#8827;
           </div>
+          <MusicPlaying></MusicPlaying>
         </div>
       </Layout>
     </div>
