@@ -1,0 +1,84 @@
+body {
+  --outer-padding: 0px;
+  --border-width: 0px;
+  --inner-padding: 8px;
+  --input-box-margin: 0px;
+}
+@media (min-width: 800px) {
+  body {
+    --outer-padding: 8px;
+    --border-width: 2px;
+    --input-box-margin: 8px;
+  }
+}
+
+/* */
+
+.light {
+  --bg-color: hsl(0, 0%, 100%, 1);
+  --main-color: hsl(0, 0%, 0%, 0.8);
+}
+
+.dim {
+  --bg-color: hsl(0, 0%, 20%, 1);
+  --main-color: hsl(0, 0%, 100%, 0.8);
+}
+
+.dark {
+  --bg-color: hsl(0, 0%, 0%, 1);
+  --main-color: hsl(0, 0%, 100%, 1);
+}
+
+/* solarized */
+
+.solarized-light {
+  --main-color: #586e75;
+  --bg-color: #eee8d5;
+}
+
+.solarized-dark {
+  --main-color: #93a1a1;
+  --bg-color: #073642;
+}
+
+.solarized-light strong,
+.solarized-dark strong {
+  color: #b58900;
+}
+
+.solarized-light .message.input,
+.solarized-dark .message.input {
+  color: #2aa198;
+}
+
+/* named */
+
+.emo {
+  --bg-color: #4d4d4d;
+  --main-color: #ff77aa;
+}
+
+.nord {
+  --bg-color: #50586c;
+  --main-color: #dce2f0;
+}
+
+.redrum {
+  --bg-color: #000000;
+  --main-color: #ff0000;
+}
+
+.toxin {
+  --bg-color: #606060;
+  --main-color: #d6ed17;
+}
+
+.valve {
+  --bg-color: #292929;
+  --main-color: #fb7e14;
+}
+
+.wasp {
+  --bg-color: #f9d142;
+  --main-color: #292826;
+}
