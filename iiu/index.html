@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/if">
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>
+    IIU - Indrajith K L's Interactive Universe
+  </title>
+  <meta
+    name="description"
+    content="IIU - Indrajith K L's Interactive Universe">
+</head>
+<body>
+  <div id="root">
+
+    <div class="app play">
+      <main>
+        <div class="status loading">
+          <div>Loading</div>
+        </div>
+      </main>
+    </div>
+
+  </div>
+
+  <script src="./src/index.js"></script>
+
+  <!-- <goatcounter> -->
+  <script>
+    window.goatcounter = { no_onload: true }
+    window.addEventListener('hashchange', _ => {
+      if (!window.goatcounter.count) return void null
+
+      window.goatcounter.count({
+        path: location.pathname + location.hash
+      })
+    })
+  </script>
+  <script
+    data-goatcounter="https://odd-ifplayer.goatcounter.com/count"
+    async src="//gc.zgo.at/count.js"></script>
+  <!-- </goatcounter> -->
+</body>
+</html>

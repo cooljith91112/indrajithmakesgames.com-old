@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/iiu/node_modules
+/iiu/dist/
+/iiu/.cache/
 /.pnp
 .pnp.js
 

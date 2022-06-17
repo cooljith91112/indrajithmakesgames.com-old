@@ -1,0 +1,100 @@
+/* Layout */
+@font-face {
+  font-family: 'hack';
+  src: url('./Hack-Regular.ttf');
+}
+
+
+html, body {
+  margin: 0;
+  height: 100%;
+
+  font-family: 'hack';
+  font-size: 18px;
+  line-height: 27px;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--bg-color);
+  color: var(--main-color);
+
+  /* Fix for Jumping Scrollbar Issue  */
+  padding-left: calc(100vw - 100%);
+}
+
+.app > main {
+  flex: 1 1 auto;
+
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 800px) {
+  .app > main {
+    margin: 5vh 0;
+    max-width: 800px;
+  }
+}
+
+/* Common */
+
+a,
+summary {
+  display: inline;
+  cursor: pointer;
+
+  border-bottom: 2px solid currentColor;
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+summary:focus,
+summary:hover {
+  opacity: 0.8;
+}
+
+*:focus {
+  outline: 1px solid var(--main-color);
+  outline-offset: 3px;
+}
+
+*::selection {
+  color: var(--bg-color);
+  background: var(--main-color);
+}
+
+input::placeholder {
+  color: var(--main-color);
+  opacity: 0.8;
+}
+
+ul {
+  list-style: square;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 2px solid var(--main-color);
+}
+
+/*  */
+
+.status {
+  padding: 8px;
+  word-break: break-word;
+}
